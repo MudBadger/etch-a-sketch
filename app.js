@@ -14,10 +14,8 @@ function grid() {
                 let rgbArray = [];
                 for (let i = 0; i < 3; i++) {
                     let color = Math.floor(Math.random() * 255);
-                    console.log(color);
                     rgbArray.push(color);
                 }
-                console.log(rgbArray.toString());
                 event.target.style = `background-color:rgb(${rgbArray.toString()})`;
             });
         }
